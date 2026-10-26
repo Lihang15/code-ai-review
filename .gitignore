@@ -1,0 +1,29 @@
+# 本地虚拟环境
+.venv/
+venv/
+
+# Python 缓存与安装产物
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# 测试与类型检查缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# 密钥与本地审查结果
+.env
+.env.*
+!.env.example
+review-result.json
+
+# 系统与编辑器
+.DS_Store
+.idea/
+*.log
